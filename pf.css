@@ -29,7 +29,7 @@ body {
     position: relative;
     top: 750px;
     background: #1f1d1d;
-    height: 900px;
+    height: fit-content;
     color: rgb(207, 205, 205);
 }
 
@@ -67,7 +67,7 @@ body {
     color: black;
 }
 
-.qualifications q1 {
+.qualifications .q1 {
     font-family: poppins;
     line-height: 30px;
 }
@@ -90,7 +90,7 @@ body {
     text-align: center;
 }
 
-.interests i1 {
+.interests .i1 {
     font-family: poppins;
     line-height: 10px;
     transition: background-color 0.5s ease;
@@ -121,7 +121,7 @@ img {
     border: #1f1d1d;
 }
 
-.q1 {
+.card-wrapper .card {
     padding: 30px;
     border: teal solid 5px;
     border-radius: 1cm;
@@ -130,11 +130,10 @@ img {
     font-size: 17px;
     color: black;
     transition: all .3s ease;
-    margin-left: .01px;
     width: fit-content;
 }
 
-.q1:hover {
+.card-wrapper .card:hover {
     background-color: black;
     color: teal;
     border: white;
@@ -235,5 +234,26 @@ img {
 @media screen and (max-width: 500px) {
     .about {
         width: 70%;
+    }
+}
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+}
+
+@media(max-width:576px) {
+    .black {
+        width: 100%;
+    }
+    .para {
+        padding: 1.5rem;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    img {
+        width: 250px;
+        height: 200px;
     }
 }
