@@ -355,4 +355,22 @@ img {
     .para {
         height: 300px;
     }
+    .design {
+        border-top: 25px solid #1f1d1d;
+        border-left: 100px solid teal;
+        border-bottom: 25px solid white;
+        border-right: 100px solid teal;
+    }
+    .design1 {
+        border-top: 25px solid white;
+        border-left: 100px solid teal;
+        border-bottom: 25px solid #1f1d1d;
+        border-right: 100px solid teal;
+    }
+    .design0 {
+        border-top: 25px solid none;
+        border-left: 100px solid teal;
+        border-bottom: 25px solid #1f1d1d;
+        border-right: 100px solid teal;
+    }
 }
