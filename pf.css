@@ -29,7 +29,7 @@ body {
     position: relative;
     top: 750px;
     background: #1f1d1d;
-    height: fit-content;
+    height: 800px;
     color: rgb(207, 205, 205);
 }
 
@@ -70,6 +70,7 @@ body {
 .qualifications .q1 {
     font-family: poppins;
     line-height: 30px;
+    transition: background-color 0.5s ease;
 }
 
 .interests {
@@ -84,7 +85,7 @@ body {
 .interests h2 {
     font-family: poppins;
     letter-spacing: 4px;
-    padding-top: 0px;
+    padding-top: 10px;
     font-size: 50px;
     margin: 0cm;
     text-align: center;
@@ -118,19 +119,7 @@ img {
 .para:hover {
     background-color: teal;
     color: black;
-    border: #1f1d1d;
-}
-
-.card-wrapper .card {
-    padding: 30px;
-    border: teal solid 5px;
-    border-radius: 1cm;
-    height: fit-content;
-    margin-top: 100px;
-    font-size: 17px;
-    color: black;
-    transition: all .3s ease;
-    width: fit-content;
+    border: white solid 5px;
 }
 
 .card-wrapper .card:hover {
@@ -147,12 +136,6 @@ img {
     margin-top: 100px;
     font-size: 17px;
     transition: all .3s ease;
-}
-
-.i1:hover {
-    background-color: teal;
-    color: black;
-    border: #1f1d1d;
 }
 
 .heading {
@@ -206,13 +189,19 @@ img {
 }
 
 .design0 {
-    border-top: 50px solid #1f1d1d;
+    border-top: 50px solid none;
     border-left: 150px solid teal;
     border-bottom: 50px solid #1f1d1d;
     border-right: 150px solid teal;
 }
 
 .edu {
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.int {
     padding: 0px;
     text-align: center;
     margin-top: 10px;
@@ -268,20 +257,42 @@ img {
     grid-column-gap: 2rem;
 }
 
-.card-wrapper-1 .card {
+.card-wrapper .card {
     padding: 30px;
     border: teal solid 5px;
     border-radius: 1cm;
     height: fit-content;
     margin-top: 100px;
     font-size: 17px;
+    color: black;
+    transition: all .3s ease;
+}
+
+.int1 .card-1 {
+    padding: 20px;
+    border: teal solid 5px;
+    border-radius: 1cm;
+    height: fit-content;
+    margin-top: 80px;
+    font-size: 17px;
     color: white;
     transition: all .3s ease;
-    width: fit-content;
     background-color: #1f1d1d;
 }
 
-.card-wrapper-1 .card:hover {
+.int2 .card-1 {
+    padding: 20px;
+    border: teal solid 5px;
+    border-radius: 1cm;
+    height: fit-content;
+    margin-top: 80px;
+    font-size: 17px;
+    color: white;
+    transition: all .3s ease;
+    background-color: #1f1d1d;
+}
+
+.card-wrapper-1 .card-1:hover {
     background-color: teal;
     color: black;
     border: white solid 5px;
@@ -291,24 +302,57 @@ img {
     .black {
         width: 100%;
     }
+    .black-1 {
+        width: 100%;
+    }
     .para {
         padding: 1.5rem;
-        margin-left: 50px;
+        margin-left: 55px;
         margin-right: 50px;
+        font-size: 15px;
     }
     img {
         width: 250px;
         height: 200px;
+        margin-left: 40px;
     }
     .card-wrapper {
         grid-template-columns: repeat(1, 1fr);
         grid-column-gap: 0px;
-        display: block;
+        display: grid;
+        width: 300px;
+        margin-left: 18px;
     }
     .card {
         height: fit-content;
-        margin: 40px;
+        margin: 20px;
         padding: 1px;
         margin-bottom: 10px;
+    }
+    .card-wrapper-1 {
+        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        padding: 2px;
+        grid-row-gap: 0rem;
+        width: 250px;
+        margin-left: 40px;
+    }
+    .card-1 {
+        height: fit-content;
+        margin: 15px;
+        padding: 1px;
+        margin-right: 10px;
+    }
+    .int {
+        font-size: 15px;
+    }
+    .det {
+        font-size: 30px;
+    }
+    .heading3 {
+        margin: 10px;
+    }
+    .para {
+        height: 300px;
     }
 }
