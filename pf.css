@@ -382,7 +382,15 @@ input[type=submit]:hover {
     width: initial;
     position: relative;
     top: 750px;
-    padding-left: 550px;
+    padding-top: 10px;
+}
+
+.footer-socials {
+    display: flex;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 5rem;
+    transform: translate(-45%);
 }
 
 .fa {
@@ -391,9 +399,10 @@ input[type=submit]:hover {
     width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 100px 10px;
+    margin: 10px 10px;
     border-radius: 100%;
     font-size: 25px;
+    transform: translate(-45deg);
 }
 
 .fa:hover {
@@ -427,7 +436,17 @@ input[type=submit]:hover {
     color: white;
 }
 
-@media(max-width:576px) {
+footer .copyright {
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+span {
+    color: teal;
+}
+
+@media(max-width: 576px) {
     .black {
         width: 100%;
     }
