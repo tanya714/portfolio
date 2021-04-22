@@ -583,4 +583,7 @@ span {
     .icon:hover {
         height: 72px;
     }
+    .topnav {
+        position: fixed;
+    }
 }
