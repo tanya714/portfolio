@@ -389,7 +389,7 @@ input[type=submit]:hover {
     display: flex;
     position: absolute;
     margin-left: 50%;
-    margin-top: rem;
+    margin-top: 5rem;
     transform: translate(-45%);
 }
 
