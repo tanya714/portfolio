@@ -577,11 +577,10 @@ span {
         font-size: 13px;
         padding: 10px;
     }
-    .topnav {
-        height: 50px;
+    .icon {
+        margin: -20px -20px;
     }
-    .fa-bars {
-        margin-top: -6px;
-        margin-right: -10px;
+    .icon:hover {
+        height: 72px;
     }
 }
