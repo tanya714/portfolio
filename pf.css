@@ -168,7 +168,7 @@ img {
 .topnav {
     overflow: hidden;
     background-color: #1f1d1d;
-    z-index: 1;
+    z-index: 999;
     position: fixed;
     width: 100%;
 }
@@ -178,7 +178,7 @@ img {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 12px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -248,7 +248,7 @@ img {
 
 @media screen and (max-width: 600px) {
     .topnav.responsive {
-        position: relative;
+        position: fixed;
     }
     .topnav.responsive .icon {
         position: absolute;
@@ -378,7 +378,7 @@ input[type=submit]:hover {
 .footer {
     width: 100%;
     height: 300px;
-    background-color: black;
+    background-color: #1f1d1d;
     width: initial;
     position: relative;
     top: 750px;
@@ -585,5 +585,7 @@ span {
     }
     .topnav {
         position: fixed;
+        width: 100%;
+        top: 0;
     }
 }
