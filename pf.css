@@ -120,7 +120,7 @@ body {
     color: black;
 }
 
-img {
+.img {
     border-width: 200cm;
     border-radius: 1cm;
     display: flex;
@@ -469,7 +469,7 @@ span {
     .about {
         height: fit-content;
     }
-    img {
+    .img {
         width: 250px;
         height: 200px;
         margin-left: 40px;
