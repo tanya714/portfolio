@@ -130,7 +130,7 @@
     }
     
     .para {
-        padding: 40px;
+        padding: 35px;
         border: teal solid 5px;
         border-radius: 1cm;
         height: fit-content;
@@ -463,13 +463,14 @@
         }
         .para {
             padding: 1.5rem;
-            margin-left: 55px;
-            margin-right: 50px;
-            padding: 15px;
+            margin-left: 35px;
+            margin-right: 35px;
+            padding: 17px;
             font-size: 15px;
+            padding-bottom: 300px;
         }
         .about {
-            height: fit-content;
+            height: 950px;
         }
         .img {
             width: 250px;
@@ -499,7 +500,7 @@
         }
         .card-1 {
             height: fit-content;
-            margin: 15px;
+            margin: 5px;
             padding: 1px;
             margin-right: 10px;
         }
@@ -511,6 +512,10 @@
         }
         .heading3 {
             margin: 10px;
+            font-size: 0.5rem;
+        }
+        .heading2 {
+            font-size: 0.5rem;
         }
         .para {
             height: 300px;
