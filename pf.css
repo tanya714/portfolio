@@ -301,6 +301,7 @@
         color: white;
         transition: all .3s ease;
         background-color: #1f1d1d;
+        position: relative;
     }
     
     .int2 .card-1 {
@@ -313,12 +314,47 @@
         color: white;
         transition: all .3s ease;
         background-color: #1f1d1d;
+        position: relative;
     }
     
     .card-wrapper-1 .card-1:hover {
         background-color: teal;
         color: black;
         border: white solid 5px;
+    }
+    
+    .i1 img.image-hover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin-top: 50px;
+        margin-left: 220px;
+        object-fit: contain;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+    
+    .i1:hover img.image-hover {
+        opacity: 1;
+    }
+    
+    .i2 img.image-hover {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin-top: 50px;
+        margin-left: 220px;
+        object-fit: contain;
+        opacity: 0;
+        transition: opacity .2s;
+    }
+    
+    .i2:hover img.image-hover {
+        opacity: 1;
     }
     
     * {
@@ -509,6 +545,8 @@
             margin: 5px;
             padding: 1px;
             margin-right: 10px;
+            position: relative;
+            display: inline-block;
         }
         .int {
             font-size: 15px;
